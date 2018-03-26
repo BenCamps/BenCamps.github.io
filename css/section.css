@@ -1,0 +1,119 @@
+.section-header-icons a svg {
+    height: 1.75em;
+    -webkit-transition: all 0.3s ease-in-out;
+    /** Chrome & Safari **/
+    -moz-transition: all 0.3s ease-in-out;
+    /** Firefox **/
+    -o-transition: all 0.3s ease-in-out;
+    /** Opera **/
+    transition: all 0.3s ease-in-out;
+}
+
+.section-header-icons a svg:hover {
+    -ms-transform: translateY(-5px);
+    /* IE 9 */
+    -webkit-transform: translateY(-5px);
+    /* Chrome, Safari, Opera */
+    transform: translateY(-5px);
+}
+
+.section-header-icons {
+    float: right;
+}
+
+.section-header-icons img {}
+
+.section {
+    margin-top: 4.5em;
+}
+
+.section-left-margin {
+    position: relative;
+    background: #444;
+    width: 4.5em;
+    float: left;
+    height: 1.75em;
+    border-radius: 1px;
+}
+
+.section-left-margin:after {
+    content: '';
+    position: absolute;
+    margin-top: 0.33em;
+    margin-left: -1em;
+    height: 1.75em;
+    width: 1em;
+    background: #555;
+    border-radius: 2px 0 0 0;
+    -webkit-transform: skew(0deg, -30deg);
+    -moz-transform: skew(0deg, -30deg);
+    -ms-transform: skew(0deg, -30deg);
+    -o-transform: skew(0deg, -30deg);
+    transform: skew(0deg, -30deg);
+}
+
+.section-left-margin:before {
+    content: '';
+    position: absolute;
+    margin-top: 1em;
+    margin-left: -1em;
+    height: 1.75em;
+    width: 1em;
+    background: #333;
+    border-radius: 2px 0 0 2px;
+    -webkit-transform: skew(0deg, 30deg);
+    -moz-transform: skew(0deg, 30deg);
+    -ms-transform: skew(0deg, 30deg);
+    -o-transform: skew(0deg, 30deg);
+    transform: skew(0deg, 30deg);
+}
+
+.section-header,
+.section-content {
+    margin-left: 4.5em;
+    padding-left: 0.75em;
+}
+
+.section-title {
+    font-size: 1.75em;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.section-subtitle {
+    line-height: 1;
+    margin-top: 0.25em;
+}
+
+.horizontal-bar-chart {
+    padding-top: 0.75em;
+}
+
+.horizontal-bar {
+    margin-top: 0.25em;
+    height: 1.75em;
+    width: 0px;
+    border-radius: 2px;
+    background: #444;
+    font-size: 0.65em;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding-left: 0.5em;
+    padding-top: 0.25em;
+    -webkit-transition: background 0.2s linear;
+    -moz-transition: background 0.2s linear;
+    -o-transition: background 0.2s linear;
+    transition: background 0.2s linear;
+}
+
+/*.horizontal-bar::after {
+            content: attr(data-percent);
+            float: right;
+            padding-right: 0.5em;
+            color: #808080;
+        }*/
+
+.horizontal-bar:hover {
+    background: black;
+}
