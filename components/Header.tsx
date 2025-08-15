@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header className={headerClass}>
       <Link href="/" aria-label={siteMetadata.headerTitle}>
-        <div className="flex items-center justify-between dark:bg-slate-900 rounded-lg pr-4">
+        <div className="flex items-center justify-between rounded-lg pr-4 dark:bg-slate-900">
           <div className="mr-3">
             <Image
               src={siteMetadata.siteLogo}
