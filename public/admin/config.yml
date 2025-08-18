@@ -11,6 +11,8 @@ publish_mode: simple # Use simple mode for direct publishing without review
 media_folder: "public/static/images" # Media files will be stored in the repo under public/static/images
 public_folder: "/static/images" # The src attribute for uploaded media will begin with /static/images
 
+site_url: "https://bencamps.me" # The URL of your site, used for generating absolute URLs in the admin UI
+
 # https://decapcms.org/docs/configuration-options/#slug-type
 slug:
   encoding: 'ascii'
